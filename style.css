@@ -1,3 +1,5 @@
+  @import url('https://fonts.googleapis.com/css2?family=Zeyada&display=swap');
+  
   .paper {
     padding: 100px 100px;
   }
@@ -7,10 +9,24 @@
     display: flex ;
     align-items: center;
     justify-content:  center;
+    background-image:url(download.jpeg) ;
+    background-size: 100px ;
+    background-position: center center ;
   }
 
 
   .paper {
     border: 5px solid black;
     position: absolute;
+    background-image: url(images.jpeg);
+    background-size: 500px ;
+    background-position: center center ;
+    padding: 20px 100px ;
+    transform:rotateZ(-5deg) ;
+    box-shadow: 1px, 15px, 20px, 0px, rgba(0, 0, 0, 0.5) ;
+  }
+
+  p {
+
+    font-family: Zeyada;
   }
